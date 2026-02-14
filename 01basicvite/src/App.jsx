@@ -1,10 +1,11 @@
 import Youtube from './Youtube';
 
 function App() {
-  
-  return (
+  const username = "Dyego2"
+  return (    
     <>
-      <h1>vite react app</h1>
+      <h1>vite react app {2+2} </h1>
+      <h1>vite react app {username === "Dyego" ? "sim" : "não"} </h1>
       <Youtube />
     </>
     
